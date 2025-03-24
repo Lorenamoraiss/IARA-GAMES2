@@ -158,4 +158,8 @@ justify-content: center;
         display: none;
     }
 }
+.img-carrossel-site {
+    flex-direction:column;
+}
+
 
