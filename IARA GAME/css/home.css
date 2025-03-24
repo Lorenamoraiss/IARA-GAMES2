@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+img {
+  width: 40%;
+  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a0526;
+    height: 100vh;
+}
+
+
+
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+    
+header {
+    padding: 30px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 15px;
+}
+
+header a { 
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+header a:hover {
+    color: #f8f54f;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+header .perfil button {
+    font-family: "Press Start 2P", system-ui;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: #94c47e;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+li input {
+    background-color: #1a0526;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 10px;
+}
+
+.img-carrossel-site {
+width: 250%;
+display: flex;
+padding: 2px;
+margin: 150px auto;
+justify-content: left;
+
+}
+
+.box {
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px rgb(70, 40, 99);
+    transition: 0.5s;
+    display: grid;
+    
+    
+}
+
+.box img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    
+    
+}
+
+.box:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+section.topo-do-site {
+    padding: 200px 3%;
+}
+
+section.topo-do-site .flex {
+align-items: center; 
+justify-content: center;
+}
+
+.topo-do-site h1 {
+    font-family: "Alfa Slab One", serif;
+    font-size: 35px;
+    color: #fffeb6;
+    text-align: left;
+    font-weight: 150;
+}
+
+.topo-do-site p {
+    font-size: 25px;
+    color: #ffffff;
+    text-align: left;
+    margin: 20px 0;
+    font-family: "Sarabun", sans-serif;
+}
+
+.paragrafo-jogos p {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+    margin: 10px 0;
+    font-family: "Sarabun", sans-serif;
+}
+
+@media screen and (max-width: 1020px) {
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .menu, .perfil {
+        display: none;
+    }
+}
+
