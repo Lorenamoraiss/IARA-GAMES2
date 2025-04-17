@@ -14,9 +14,12 @@ img {
 }
 
 body {
-    background-color: #1a0526;
-    height: 100vh;
-}
+    background-color: #1a0826;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
 
 
 
@@ -83,81 +86,447 @@ li input {
     font-size: 10px;
 }
 
-.img-carrossel-site {
-width: 250%;
-display: flex;
-padding: 2px;
-margin: 150px auto;
-justify-content: left;
-
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 4rem 1rem 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
-.box {
-    width: 250px;
-    margin: 0 10px;
-    box-shadow: 0 0 20px rgb(70, 40, 99);
-    transition: 0.5s;
+/* Sereia */
+.sereia {
+  width: 300px;
+  margin-bottom: 0.rem;
+  opacity: 0.9;
+  filter: brightness(0.95);
+}
+
+/* Títulos */
+.hero h1 {
+  font-size: 3.2rem;
+  margin: 0.1rem 0;
+  line-height: 2rem;
+  font-family: "Press Start 2P", system-ui;
+  color: #f9d9a9;
+}
+
+.hero h1 span {
+  display: block;
+  font-size: 3.2rem;
+  color: #f9d9a9;
+}
+
+/* Parágrafo */
+.hero p {
+  font-size: 1.7rem;
+  max-width: 900px;
+  margin: 1.5rem auto 0;
+  line-height: 1.;
+  font-family: sans-serif;
+  color: #f9d9a9;
+}
+
+/* Avatares */
+.avatars {
+  position: absolute;
+  width: 80px;
+  height: 100px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.avatars img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* Posições específicas */
+.avatar-top-left {
+  top: 2rem;
+  left: 30rem;
+  width: 130px;
+  height: 130px;
+  background-color: #a82c7d;
+}
+
+.avatar-top-right {
+  top: 2rem;
+  right: 20rem;
+  width: 150px;
+  height: 150px;
+  background-color: #456c53;
+}
+
+.avatar-bottom-left {
+  bottom: 25rem;
+  left: 20rem;
+  width: 100px;
+  height: 100px;
+  background-color: #5e3b8c;
+}
+
+.avatar-bottom-right {
+  bottom: 15rem;
+  right: 25rem;
+    width: 130px;
+    height: 130px;
+  background-color: #D5038D;
+}
+
+.avatar-bottom-center {
+  bottom: 10rem;
+  left: 20rem;
+  transform: translateX(-50%);
+  background-color: #fbe19b;
+}
+
+.janela-jogos {
+    background-color: #1a0826;
+    border-radius: 16px;
+    padding: 30px 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #fbe19b;
+    position: relative;
+  }
+  
+  .botoes-janela {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .botao {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .red {
+    background-color: #3F2051;
+  }
+  
+  .yellow {
+    background-color: #D5038D;
+  }
+  
+  .green {
+    background-color: #FFE39C;
+  }
+  
+  
+  .jogos h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  
+  .grid-jogos {
     display: grid;
-    
-    
-}
-
-.box img {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+  }
+  
+  
+  .box {
+    background-color: #2a0649;
+    padding: 6px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+  }
+  
+  .box:hover {
+    transform: scale(1.03);
+  }
+  
+  .box img {
     display: block;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 8px;
+  }
+  
+ 
+  a.grande {
+    grid-column: span 2;
+  }
+
+
+
+
+  .quem-somos {
+    padding: 200px 20px;
+    background: #1a0826;
+    text-align: center;
+  }
+
+  .quem-somos h2 {
+    font-size: 3rem;
+    color: #fbe19b;
+    margin-bottom: 30px;
+    font-family: "Press Start 2P", system-ui;
+  }
     
+  .conteudo-sobre {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left
     
+  }
+
+  .conteudo-sobre img {
+    width: 2000px;
+    border-radius: 50px;
+  }
+
+  .logo-iara-quem {
+    background-color: #1a0826;
+    border-radius: 16px;
+    padding: 30px 25px;
+    max-width: 1200px;
+    margin: 2.3rem;
+    border: 1px solid #fbe19b;
+    position: relative;
+  }
+  
+  .conteudo-sobre p {
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.6;
+    color: #fbe19b;
+  }
+
+ 
+/* Rodapé */
+footer {
+    background-color: #1a0826;
+    color: #fbe19b;
+    padding: 30px 20px;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
+   gap: 20px;
 }
 
-.box:hover {
-    transform: scale(1.2);
-    z-index: 2;
+footer h4 {
+  color: #fbe19b;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  font-family: "Press Start 2P", system-ui
 }
 
-section.topo-do-site {
-    padding: 200px 3%;
+footer p{ 
+  font-size: 1.3rem;
 }
 
-section.topo-do-site .flex {
-align-items: center; 
-justify-content: center;
+.linha-decorativa {
+  width: 600%;
+  max-width: px;
+  height: 0.1px;
+  border: 0.1px solid #FFE39C;
+  transform: rotate(-0.07deg);
+  margin: 0px auto;
 }
 
-.topo-do-site h1 {
-    font-family: "Alfa Slab One", serif;
-    font-size: 35px;
-    color: #fffeb6;
-    text-align: left;
-    font-weight: 150;
+
+.logo-footer img {
+  width: 300px;
 }
 
-.topo-do-site p {
-    font-size: 25px;
-    color: #ffffff;
-    text-align: left;
-    margin: 20px 0;
-    font-family: "Sarabun", sans-serif;
+.insta { 
+    width: 70px;
+  transition: transform 0.2s;
 }
 
-.paragrafo-jogos p {
-    font-size: 20px;
-    color: #ffffff;
-    text-align: left;
-    margin: 10px 0;
-    font-family: "Sarabun", sans-serif;
+.discord {
+    width: 85px;
+    transition: transform 0.2s;
 }
 
-@media screen and (max-width: 1020px) {
 
-    .flex {
-        flex-direction: column;
-    }
 
-    .menu, .perfil {
-        display: none;
-    }
+
+
+
+
+
+
+
+/* Responsivo */
+
+@media (max-width: 1024px) {
+  header > .interface {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .hero h1, .hero h1 span {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+  .sereia {
+    width: 200px;
+  }
+
+  .avatar-top-left {
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .avatar-top-right {
+    position: absolute;
+    top: 90px;
+    right: 4px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .avatar-bottom-left {
+    position: absolute;
+    bottom: 320px;
+    left: 20px;
+    width: 60px;
+    height: 80px;
+  }
+  
+  .avatar-bottom-right {
+    position: absolute;
+    bottom: 200px;
+    right: 30px;
+    width: 90px;
+    height: 80px;
+  }
+  
+  .avatar-bottom-center {
+    position: absolute;
+    left: 20%;
+    bottom: 200px;
+    width: 60px;
+    height: 60px;
+    transform: translateX(-50%);
+  }
+
+  .conteudo-sobre {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .conteudo-sobre img {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .linha-decorativa {
+    width: 100%;
+  }
+
+  .logo-footer img {
+    width: 200px;
+  }
+
+  .insta, .discord {
+    width: 50px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .grid-jogos {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
 }
+
+
+@media (max-width: 600px) {
+  .hero h1, .hero h1 span {
+    font-size: 1.6rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .janela-jogos {
+    padding: 10px;
+  }
+
+  .box {
+    padding: 2px;
+  }
+
+  .quem-somos h2 {
+    font-size: 2rem;
+
+  }
+
+  .quem-somos {
+    padding: 100px 20px;
+  }
+  
+  .conteudo-sobre p {
+    font-size: 0.9rem;
+    
+  }
+
+  .grid-jogos {
+    display: flex; 
+    flex-direction: row; 
+    gap: 10px;
+  }
+
+  
+
+  header nav ul li {
+    padding: 10px 0;
+  }
+
+  header .perfil button {
+    font-size: 8px;
+    padding: 8px 16px;
+  }
+
+  li input {
+    font-size: 8px;
+  }
+}
+
+
+
+
+
+
+
 
 
 
