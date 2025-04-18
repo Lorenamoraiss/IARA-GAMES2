@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+img {
+  width: 40%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a0826;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+    
+header {
+    padding: 30px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 15px;
+}
+
+header a { 
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover {
+    color: #f8f54f;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header .perfil button {
+    font-family: "Press Start 2P", system-ui;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: #94c47e;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+li input {
+    background-color: #1a0526;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 10px;
+}
+
+.fa-solid{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.container{
+    
+    padding: 1rem;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    border: 1px solid #fbe19b;
+    border-radius: 10px;
+}
+
+.container_formulario{
+     display: grid;
+    place-items: center;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1rem;
+}
+
+.container .container_formulario .form-box{
+    display: grid;
+    grid-row: span;
+}
+
+.container .container_formulario .form-box label{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fbe19b;
+    font-weight: 700;
+}
+
+.container input{
+    margin: 10px;
+    border: 1px solid;
+    border-color: rgb(89, 24, 150);
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.container button{
+    background-color: #94c47e;
+    color: black;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.container button:hover{
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+footer {
+    background-color: #1a0826;
+    color: #fbe19b;
+    padding: 30px 20px;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
+   gap: 20px;
+}
+
+footer h4 {
+  color: #fbe19b;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  font-family: "Press Start 2P", system-ui
+}
+
+footer p{ 
+  font-size: 1.3rem;
+}
+
+.linha-decorativa {
+  width: 600%;
+  max-width: px;
+  height: 0.1px;
+  border: 0.1px solid #FFE39C;
+  transform: rotate(-0.07deg);
+  margin: 0px auto;
+}
+
+.logo-footer img {
+  width: 300px;
+}
+
+.insta { 
+    width: 70px;
+  transition: transform 0.2s;
+}
+
+.discord {
+    width: 85px;
+    transition: transform 0.2s;
+}
