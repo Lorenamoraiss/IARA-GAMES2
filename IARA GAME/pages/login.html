@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="../pages/Index.html">
+                    <img src="../image/logo iara.png" alt="logotipo Iara Games">
+                </a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Jogos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><input type="text" placeholder="Próximo jogo favorito..."><i
+                            class="fa-solid fa-magnifying-glass"></i>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <div class="perfil">
+                    <a href="#">
+                        <button>Meu perfil</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="container_formulario">
+        <h1>Faça seu login</h1>
+        <form name="login" id="login">
+            <div class="form-box">
+                <label for="nome">Username</label>
+                <input type="text" class="form-box_input" id="nome" required>
+            </div>
+                <div class="form-box">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required placeholder="abc@xyz.com">
+                </div>
+                <div class="form-box">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" required minlength="5">
+                </div>
+                <div class="form-box">
+                    <button type="submit" class="enviar">Enviar</button>
+                </div>
+        </form>
+        </div>
+    </div>
+    <footer>
+        <div class="linha-decorativa"></div>
+        <div class="contato">
+            <h4>Nossos contatos:</h4>
+            <p>contato@iaragames.com</p>
+            <p>+55(11)99999-9999</p>
+        </div>
+        <div class="logo-footer">
+            <img src="../image/rodapé sereia.png" alt="Sereia Iara">
+        </div>
+        <div class="redes">
+            <h4>Nossas redes:</h4>
+            <img src="../image/insta icone.png" alt="Instagram" class="insta">
+            <img src="../image/discord icone.png" alt="Discord" class="discord">
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/d48feb6730.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
